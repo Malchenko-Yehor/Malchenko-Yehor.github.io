@@ -1,0 +1,21 @@
+@import '../rem/rem';
+
+.attached-photo {
+  position: relative;
+  width: rem(300);
+  height: rem(345);
+  padding: rem(15) rem(15) rem(60) rem(15);
+  background-color: #fff;
+  box-shadow: 2px 2px 5px #555;
+
+  &__title {
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+    font-size: rem(20);
+  }
+
+  img {
+    width: 100%;
+    height: auto;
+  }
+}

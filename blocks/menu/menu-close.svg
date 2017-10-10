@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="85.034012"
+   height="84.981926"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="menu-close.svg">
+  <metadata
+     id="metadata14">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs12" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     id="namedview10"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:zoom="2.1071429"
+     inkscape:cx="39.705486"
+     inkscape:cy="34.903209"
+     inkscape:window-x="1358"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg2" />
+  <g
+     id="g4"
+     style="stroke:#3e3231;stroke-opacity:1"
+     transform="matrix(1.0050517,0,0,1.0421645,-22.30883,-9.6500502)">
+    <title
+       id="title6">Close</title>
+    <path
+       class="line-global cross-one"
+       d="m 30.5,14.5 c 0,1 0.87181,2.08953 3,5 3.77946,5.16872 12,12 19,20 7,8 13.44546,12.44798 21,19 3.20512,2.77979 14,14 21,20 l 4,5 2,1 1,1"
+       id="svg_39"
+       fill-opacity="null"
+       style="fill:none;stroke:#3e3231;stroke-width:15;stroke-opacity:1"
+       inkscape:connector-curvature="0" />
+    <path
+       class="line-global cross-two"
+       d="m 93.5,15.5 c -3,2 -10.52221,9.38073 -13,12 -3.43607,3.63227 -8.27805,6.73428 -14,13 -5.26675,5.76727 -7.73091,10.30425 -19,20 -8.19947,7.0547 -13,11 -16,14 l -3,2 -1,1"
+       id="svg_40"
+       fill-opacity="null"
+       style="fill:none;stroke:#3e3231;stroke-width:15;stroke-opacity:1"
+       inkscape:connector-curvature="0" />
+  </g>
+</svg>

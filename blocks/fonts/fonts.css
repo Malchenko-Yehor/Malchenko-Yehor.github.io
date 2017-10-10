@@ -1,0 +1,29 @@
+@font-face {
+  font-family: 'Handvetica';
+  src: url("Handvetica.ttf"); }
+
+@font-face {
+  font-family: 'Kalam Regular';
+  src: url("Kalam-Regular.ttf"); }
+
+@font-face {
+  font-family: 'Kalam Light';
+  src: url("Kalam-Light.ttf"); }
+
+@font-face {
+  font-family: 'Kalam Bold';
+  src: url("Kalam-Bold.ttf"); }
+
+@font-face {
+  font-family: 'Marker';
+  src: url("PermanentMarker-Regular.ttf"); }
+
+@font-face {
+  font-family: 'Architects Daughter';
+  src: url("Architects-Daughter.ttf"); }
+
+@font-face {
+  font-family: 'Patrick Hand';
+  src: url("Patrick-Hand.ttf"); }
+
+/*# sourceMappingURL=data:application/json;charset=utf8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImZvbnRzLmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNFLDBCQUEwQjtFQUMxQiwyQkFBMkIsRUFBRTs7QUFFL0I7RUFDRSw2QkFBNkI7RUFDN0IsOEJBQThCLEVBQUU7O0FBRWxDO0VBQ0UsMkJBQTJCO0VBQzNCLDRCQUE0QixFQUFFOztBQUVoQztFQUNFLDBCQUEwQjtFQUMxQiwyQkFBMkIsRUFBRTs7QUFFL0I7RUFDRSxzQkFBc0I7RUFDdEIsd0NBQXdDLEVBQUU7O0FBRTVDO0VBQ0UsbUNBQW1DO0VBQ25DLG9DQUFvQyxFQUFFOztBQUV4QztFQUNFLDRCQUE0QjtFQUM1Qiw2QkFBNkIsRUFBRSIsImZpbGUiOiJmb250cy9mb250cy5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyJAZm9udC1mYWNlIHtcbiAgZm9udC1mYW1pbHk6ICdIYW5kdmV0aWNhJztcbiAgc3JjOiB1cmwoXCJIYW5kdmV0aWNhLnR0ZlwiKTsgfVxuXG5AZm9udC1mYWNlIHtcbiAgZm9udC1mYW1pbHk6ICdLYWxhbSBSZWd1bGFyJztcbiAgc3JjOiB1cmwoXCJLYWxhbS1SZWd1bGFyLnR0ZlwiKTsgfVxuXG5AZm9udC1mYWNlIHtcbiAgZm9udC1mYW1pbHk6ICdLYWxhbSBMaWdodCc7XG4gIHNyYzogdXJsKFwiS2FsYW0tTGlnaHQudHRmXCIpOyB9XG5cbkBmb250LWZhY2Uge1xuICBmb250LWZhbWlseTogJ0thbGFtIEJvbGQnO1xuICBzcmM6IHVybChcIkthbGFtLUJvbGQudHRmXCIpOyB9XG5cbkBmb250LWZhY2Uge1xuICBmb250LWZhbWlseTogJ01hcmtlcic7XG4gIHNyYzogdXJsKFwiUGVybWFuZW50TWFya2VyLVJlZ3VsYXIudHRmXCIpOyB9XG5cbkBmb250LWZhY2Uge1xuICBmb250LWZhbWlseTogJ0FyY2hpdGVjdHMgRGF1Z2h0ZXInO1xuICBzcmM6IHVybChcIkFyY2hpdGVjdHMtRGF1Z2h0ZXIudHRmXCIpOyB9XG5cbkBmb250LWZhY2Uge1xuICBmb250LWZhbWlseTogJ1BhdHJpY2sgSGFuZCc7XG4gIHNyYzogdXJsKFwiUGF0cmljay1IYW5kLnR0ZlwiKTsgfVxuIl19 */

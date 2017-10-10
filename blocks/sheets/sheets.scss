@@ -1,0 +1,179 @@
+@import '../rem/rem';
+$fillColor: #f0e4c1;
+$sheetShadowColor: rgba(0,0,0, .7);
+$mainColor: #3e3231;
+
+.sheets {
+  position: relative;
+  margin-right: auto;
+  margin-left: auto;
+  width: 70%;
+  min-height: 95vh;
+  transform: translateY(200%);
+
+  &__holder {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 255px 15px 225px 15px / 15px 225px 15px 255px;
+    box-shadow: 6px 4px 15px $sheetShadowColor;
+  }
+
+
+  &__page {
+    position: absolute;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    border-radius: 255px 15px 225px 15px / 15px 225px 15px 255px;
+    background-color: $fillColor;
+  }
+
+  &__menu-open {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    z-index: 2;
+  }
+
+  &__close {
+    position: absolute;
+    z-index: 2;
+    right: 20px;
+    top: 0;
+    font-family: 'Kalam Regular', sans-serif;
+    font-size: 30px;
+    color: #b32400;
+    cursor: pointer;
+    -webkit-tap-highlight-color:  rgba(255, 255, 255, 0);
+
+    &:hover {
+      color: #e62e00;
+      cursor: pointer;
+    }
+  }
+
+  &__backward {
+    position: absolute;
+    z-index: 2;
+    top: 10px;
+    right: 45px;
+    width: 35px;
+    height: 15px;
+    background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9Im5vIj8+CjxzdmcKICAgeG1sbnM6ZGM9Imh0dHA6Ly9wdXJsLm9yZy9kYy9lbGVtZW50cy8xLjEvIgogICB4bWxuczpjYz0iaHR0cDovL2NyZWF0aXZlY29tbW9ucy5vcmcvbnMjIgogICB4bWxuczpyZGY9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkvMDIvMjItcmRmLXN5bnRheC1ucyMiCiAgIHhtbG5zOnN2Zz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciCiAgIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIKICAgaWQ9InN2ZzIiCiAgIHZlcnNpb249IjEuMSIKICAgeG1sOnNwYWNlPSJwcmVzZXJ2ZSIKICAgd2lkdGg9Ijg4LjA3MjMwNCIKICAgaGVpZ2h0PSI0MC43NzI5MTkiCiAgIHZpZXdCb3g9IjAgMCA4OC4wNzIzMDEgNDAuNzcyOTE5Ij48bWV0YWRhdGEKICAgICBpZD0ibWV0YWRhdGE4Ij48cmRmOlJERj48Y2M6V29yawogICAgICAgICByZGY6YWJvdXQ9IiI+PGRjOmZvcm1hdD5pbWFnZS9zdmcreG1sPC9kYzpmb3JtYXQ+PGRjOnR5cGUKICAgICAgICAgICByZGY6cmVzb3VyY2U9Imh0dHA6Ly9wdXJsLm9yZy9kYy9kY21pdHlwZS9TdGlsbEltYWdlIiAvPjxkYzp0aXRsZT48L2RjOnRpdGxlPjwvY2M6V29yaz48L3JkZjpSREY+PC9tZXRhZGF0YT48ZGVmcwogICAgIGlkPSJkZWZzNiI+PGNsaXBQYXRoCiAgICAgICBjbGlwUGF0aFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIKICAgICAgIGlkPSJjbGlwUGF0aDE4Ij48cGF0aAogICAgICAgICBkPSJtIDAsMCA3OTkuNTYsMCAwLDgwMCBMIDAsODAwIDAsMCBaIgogICAgICAgICBpZD0icGF0aDIwIiAvPjwvY2xpcFBhdGg+PGNsaXBQYXRoCiAgICAgICBjbGlwUGF0aFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIKICAgICAgIGlkPSJjbGlwUGF0aDIwNiI+PHBhdGgKICAgICAgICAgZD0iTSAwLDgwMCA4MDAsODAwIDgwMCwwIDAsMCAwLDgwMCBaIgogICAgICAgICBpZD0icGF0aDIwOCIgLz48L2NsaXBQYXRoPjxjbGlwUGF0aAogICAgICAgY2xpcFBhdGhVbml0cz0idXNlclNwYWNlT25Vc2UiCiAgICAgICBpZD0iY2xpcFBhdGgzMzgiPjxwYXRoCiAgICAgICAgIGQ9Ik0gMCw4MDAgODAwLDgwMCA4MDAsMCAwLDAgMCw4MDAgWiIKICAgICAgICAgaWQ9InBhdGgzNDAiIC8+PC9jbGlwUGF0aD48L2RlZnM+PGcKICAgICBpZD0iZzEwIgogICAgIHRyYW5zZm9ybT0ibWF0cml4KC0xLjI1LDAsMCwtMS4yNSw4MDEuMjYxMzgsNTU5LjMyNjMpIj48ZwogICAgICAgaWQ9ImczNDIiCiAgICAgICB0cmFuc2Zvcm09Im1hdHJpeCgtMC4wMDcxMTgzMiwtMC45OTk5Mjk5LDAuNjAxMTQwMTUsLTAuMDExODQwNTMsNTk3LjY2OTYyLDQyNi4yNTQ4NykiPjxwYXRoCiAgICAgICAgIGQ9Ik0gMCwwIEMgLTAuNDQ5LDkuNDggLTAuOTM3LDE4Ljk1NyAtMS40NjMsMjguNDMyIC0xLjUyMiwyOS44NDcgLTEuNTgsMzEuMjYyIC0xLjY0LDMyLjY3NiAtMC45NzUsMjEuNzkxIC0wLjQyOSwxMC44OTcgMCwwIG0gMS4yOTYsLTQwLjUwOSBjIC0wLjAxMSwtMC40NDkgLTAuMDYzLC0wLjg0NSAtMC4xOTYsLTEuMTE1IDAuMDAzLC0wLjI2MSAwLjAwNywtMC41MjIgMC4wMSwtMC43ODQgLTAuNTE5LDAuNDMxIC0xLjAzNywwLjg2MSAtMS41NTYsMS4yOTEgLTAuMzc0LDAuNjcyIC0wLjIzNiwyLjIwNCAtMC4zMDMsMi45ODkgLTAuMDM3LDAuNDI3IC0wLjA2NiwwLjg1NiAtMC4wOTgsMS4yODQgMC4xNjcsLTEuMjAxIDAuMzMsLTIuNDAyIDAuNTA1LC0zLjYwMSAwLjEyNSwtMC44NTMgMS4zODEsLTAuNzYzIDEuNjM4LC0wLjA2NCBtIC0zLjc0NSwzNC4wMTggYyAtMC4xNDEsNC4xMzggLTAuMjYxLDguMjc3IC0wLjMzOSwxMi40MTcgLTAuMDg1LDQuNDg3IC0wLjExOCw4Ljk3MyAtMC4xMjUsMTMuNDYgMC41MjksLTEyLjc0NSAxLjA2MSwtMjUuNDkgMS42MDgsLTM4LjIzNSAtMC40MjksNC4xMTUgLTAuODExLDguMjM1IC0xLjE0NCwxMi4zNTggbSAtMS4xMjksLTE0LjIyOCBjIDAuMjQxLC00LjUxOSAwLjUxNywtOS4wMzUgMC44MjcsLTEzLjU1IDAuMDEsLTAuMTM2IDAuMDE4LC0wLjMgMC4wMjYsLTAuNDgyIC0wLjM1OCw0LjY3NSAtMC42MzksOS4zNTMgLTAuODUzLDE0LjAzMiBtIDE0LjQyLDYxLjY3MyBjIC0yLjMzOSw1LjU3NiAtNC44NzUsMTEuMDY1IC03LjU0LDE2LjQ5MSAtMS41NTgsNC42MjkgLTMuMTQzLDkuMjQ5IC00Ljc2OCwxMy44NTYgLTAuNDY3LDEuMzI1IC0yLjM0NSwwLjc5NyAtMi4wOTMsLTAuNTc3IDAuMDcyLC0wLjM5MSAwLjE2MSwtMC43NzYgMC4yMzgsLTEuMTY2IC0wLjAxOCwtMC4wNTIgLTAuMDI0LC0wLjEwOSAtMC4wMjIsLTAuMTcxIC0wLjA4NCwtMC4xMTcgLTAuMTQsLTAuMjU5IC0wLjE1NSwtMC40MzEgLTAuMTAxLC0wLjE5OCAtMC4yLC0wLjM5NyAtMC4zMDIsLTAuNTk2IC0wLjEwMSwwLjA2MyAtMC4yMTQsMC4xMDUgLTAuMzI5LDAuMTM4IC0wLjAzMSwwLjA2NiAtMC4wNjIsMC4xMzMgLTAuMDkzLDAuMiAwLjAxOSwwLjAzOSAwLjAzOCwwLjA3OCAwLjA1OCwwLjExNyAwLjU3MywxLjE2NiAtMS4xNDMsMi4xOTQgLTEuNzU2LDEuMDI3IC0wLjAzMiwtMC4wNiAtMC4wNjIsLTAuMTIgLTAuMDk0LC0wLjE4IC0wLjI4NCwtMC4yMTYgLTAuNDksLTAuNTUzIC0wLjQ4OSwtMC45NCAtMC44MzEsLTEuNTg3IC0xLjY2MSwtMy4xNzQgLTIuNDc5LC00Ljc2NyAtMS43MzYsLTIuODkzIC0zLjMyOSwtNS44NTcgLTQuNzY2LC04Ljg5NSAtMi45ODIsLTUuNTI3IC01LjcwOSwtMTEuMTc5IC03Ljg0OSwtMTcuMTE4IC0wLjM5LC0xLjA4MyAxLjM1OSwtMS44MjggMS44NywtMC43ODggMC4yMjksMC40NjcgMC40NTksMC45MzQgMC42ODksMS40MDIgMC4wMDEsLTAuMDA0IDAuMDAxLC0wLjAwNyAwLjAwMiwtMC4wMSAtMC4wNywtMC4yOTUgLTAuMTQ4LC0wLjU4NiAtMC4yMTMsLTAuODgzIC0wLjIzOCwtMS4xMDQgMS40MDgsLTEuOTY1IDEuOTM1LC0wLjgxNiAwLjQxNSwwLjkwMyAwLjgyOSwxLjgwNiAxLjI0MywyLjcwOSAwLjE2OSwwLjA3OCAwLjMyMSwwLjIyIDAuNDMxLDAuNDQgMC4zOSwwLjc4NiAwLjc4MSwxLjU3MiAxLjE3MSwyLjM1OSAwLjAzNCwtMC4wNzcgMC4wNTcsLTAuMTU5IDAuMDk4LC0wLjIzMiAwLjE1MSwtMC4yNjcgMC40NzQsLTAuMzggMC43NjQsLTAuMzEgMC4xMiwwLjAyOSAwLjI0MSwwLjA1OCAwLjM2MiwwLjA4NiAwLjg0MywwLjIwMyAwLjQ3NywxLjQzMiAtMC4zNTMsMS4yODMgMC45NjMsMC4xNzMgMi4zMjIsNS4xMzQgMi43MzcsNi4wODIgMC41MDMsMS4xNDggMS4wMTIsMi4yOTQgMS41MjcsMy40MzcgMS4yNjcsMi41NTUgMi41MjIsNS4xMTYgMy43ODMsNy42NzMgLTAuMDk2LC0yLjMyMyAtMC4xODEsLTQuNjQ2IC0wLjI1LC02Ljk2OSAtMi4yOTMsLTMyLjUwMiAtMS4zNTksLTY1LjEwMyAyLjI1MiwtOTcuNTE0IDAuMTE0LC0xLjAyOCAxLjczNiwtMS4wNSAxLjYzMiwwIC0wLjEyLDEuMiAtMC4yMTgsMi40IC0wLjMyNywzLjYgMC41NDMsLTIuOTk5IDEuNzY4LC01LjU4IDQuNjgzLC00LjIxNyAwLjI2OCwwLjEyNSAwLjQzNCwwLjQ2NyAwLjQzMSwwLjc1MSAtMC4zNzcsMzMuOTg3IC0xLjk5OSw2Ny45MzUgLTQuNjAyLDEwMS44MTkgMy4wMTgsLTYuNyA2LjA1MiwtMTMuMzkyIDkuMDk1LC0yMC4wOCAwLjQyMiwtMC45MjcgMS43MDgsLTAuNiAyLjA0MywwLjE3NyAwLjU3NywwLjE3NiAxLjA0MSwwLjcxMiAwLjc3OSwxLjM4OCAtMC4wMzQsMC4wODggLTAuMDY4LDAuMTc3IC0wLjEwMiwwLjI2NSAwLjU5LDAuMTU4IDEuMDUzLDAuNjU4IDAuNzU5LDEuMzYiCiAgICAgICAgIHN0eWxlPSJmaWxsOiMzYzNjM2I7ZmlsbC1vcGFjaXR5OjE7ZmlsbC1ydWxlOm5vbnplcm87c3Ryb2tlOm5vbmUiCiAgICAgICAgIGlkPSJwYXRoMzQ0IiAvPjwvZz48L2c+PC9zdmc+);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    cursor: pointer;
+
+    &:hover {
+      opacity: .8;
+    }
+  }
+
+  &__content-wrapper {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    padding: rem(45) rem(23) rem(25) rem(30);
+
+    &::before {
+      position: absolute;
+      z-index: 1;
+      top: rem(45);
+      right: rem(39);
+      left: 0;
+      display: block;
+      height: rem(20);
+      content: '';
+      background: linear-gradient($fillColor, rgba(255, 255, 255, 0));
+    }
+
+    &::after {
+      position: absolute;
+      z-index: 1;
+      right: rem(39);
+      bottom: rem(25);
+      left: 0;
+      display: block;
+      height: rem(20);
+      content: '';
+      background: linear-gradient(rgba(255, 255, 255, 0), $fillColor);
+    }
+  }
+
+  &__content {
+    position: relative;
+    overflow-y: auto;
+    overflow-x: hidden;
+    width: 100%;
+    height: 100%;
+    color: black;
+    padding-right: rem(10);
+    padding-top: 18px;
+    padding-bottom: 18px;
+
+    &::-webkit-scrollbar {
+      width: 16px;
+      margin-left: -20px;
+    }
+
+    &::-webkit-scrollbar-track {
+      display: none;
+    }
+
+    &::-webkit-scrollbar-thumb {
+      border: 2px solid $mainColor;
+    }
+
+    &::-webkit-scrollbar-thumb:hover {
+      background-color: $mainColor;
+    }
+
+    &::-webkit-scrollbar-button:start:decrement {
+      width: 16px;
+      height: 16px;
+      background: url('sheets-scrollbar-arrow-up.svg');
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: contain;
+    }
+
+    &::-webkit-scrollbar-button:end:increment {
+      width: 16px;
+      height: 16px;
+      background: url('sheets-scrollbar-arrow-down.svg');
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: contain;
+    }
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .sheets {
+    &__holder {
+      width: 100%;
+    }
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .sheets {
+    width: 100%;
+    height: 100vh;
+    top: 10%;
+
+    &__menu-open {
+      top: 10px;
+      left: 10px;
+    }
+
+    &__holder {
+      border-radius: 0;
+    }
+
+    &__page {
+      border-radius: 0;
+    }
+  }
+}

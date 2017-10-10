@@ -1,0 +1,63 @@
+$fill: #f7f0dd;
+
+body {
+  height: 100vh;
+}
+
+.background {
+  background-color: $fill;
+  position: absolute;
+  min-width: 100%;
+  min-height: 100%;
+  overflow: hidden;
+
+
+  &__ground,
+  &__mountains,
+  &__clouds {
+    min-width: 100%;
+    min-height: 100%;
+    opacity: 0;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: 100% auto;
+  }
+
+
+
+  &__ground {
+    background-image: url('background-ground.svg');
+  }
+
+  &__mountains {
+    background-image: url('background-mountains.svg');
+  }
+
+  &__clouds {
+    position: relative;
+    background-position: center top;
+  }
+
+  &__cloud-1,
+  &__cloud-2,
+  &__cloud-3 {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    background-position: center 80%;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+  }
+
+  &__cloud-1 {
+    background-image: url('background-cloud1.svg');
+  }
+
+  &__cloud-2 {
+    background-image: url('background-cloud2.svg');
+  }
+
+  &__cloud-3 {
+    background-image: url('background-cloud3.svg');
+  }
+}

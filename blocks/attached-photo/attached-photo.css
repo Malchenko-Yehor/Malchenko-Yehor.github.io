@@ -1,0 +1,17 @@
+.attached-photo {
+  position: relative;
+  width: 18.75rem;
+  height: 21.5625rem;
+  padding: 0.9375rem 0.9375rem 3.75rem 0.9375rem;
+  background-color: #fff;
+  -webkit-box-shadow: 2px 2px 5px #555;
+          box-shadow: 2px 2px 5px #555; }
+  .attached-photo__title {
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+    font-size: 1.25rem; }
+  .attached-photo img {
+    width: 100%;
+    height: auto; }
+
+/*# sourceMappingURL=data:application/json;charset=utf8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImF0dGFjaGVkLXBob3RvLmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNFLG1CQUFtQjtFQUNuQixnQkFBZ0I7RUFDaEIsbUJBQW1CO0VBQ25CLCtDQUErQztFQUMvQyx1QkFBdUI7RUFDdkIscUNBQTZCO1VBQTdCLDZCQUE2QixFQUFFO0VBQy9CO0lBQ0UsbUJBQW1CO0lBQ25CLGlDQUFpQztJQUNqQyxtQkFBbUIsRUFBRTtFQUN2QjtJQUNFLFlBQVk7SUFDWixhQUFhLEVBQUUiLCJmaWxlIjoiYXR0YWNoZWQtcGhvdG8vYXR0YWNoZWQtcGhvdG8uY3NzIiwic291cmNlc0NvbnRlbnQiOlsiLmF0dGFjaGVkLXBob3RvIHtcbiAgcG9zaXRpb246IHJlbGF0aXZlO1xuICB3aWR0aDogMTguNzVyZW07XG4gIGhlaWdodDogMjEuNTYyNXJlbTtcbiAgcGFkZGluZzogMC45Mzc1cmVtIDAuOTM3NXJlbSAzLjc1cmVtIDAuOTM3NXJlbTtcbiAgYmFja2dyb3VuZC1jb2xvcjogI2ZmZjtcbiAgYm94LXNoYWRvdzogMnB4IDJweCA1cHggIzU1NTsgfVxuICAuYXR0YWNoZWQtcGhvdG9fX3RpdGxlIHtcbiAgICB0ZXh0LWFsaWduOiBjZW50ZXI7XG4gICAgZm9udC1mYW1pbHk6ICdBcmlhbCcsIHNhbnMtc2VyaWY7XG4gICAgZm9udC1zaXplOiAxLjI1cmVtOyB9XG4gIC5hdHRhY2hlZC1waG90byBpbWcge1xuICAgIHdpZHRoOiAxMDAlO1xuICAgIGhlaWdodDogYXV0bzsgfVxuIl19 */
