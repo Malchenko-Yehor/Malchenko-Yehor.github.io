@@ -11,13 +11,17 @@
     height: rem(405);
     margin: 10px;
     background-repeat: no-repeat;
-    background-position: center center;
-    background-size: 100% 100%;
+    background-position: center top;
+    background-size: 100% auto;
     border-radius: 5px;
     box-shadow: 5px 3px 10px rgba(0,0,0, .7);
 
     &:hover .portfolio__description {
       display: block;
+    }
+
+    &--ropack {
+      background-image: url('portfolio-ropack.png'); 
     }
 
     &--reserved {

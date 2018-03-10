@@ -1,0 +1,22 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&subset=cyrillic-ext");
+@font-face {
+  font-family: "Cervo";
+  src: url(../fonts/Cervo-medium.woff) format("woff"); }
+
+@font-face {
+  font-family: "Ristretto-pro Thin";
+  src: url("../fonts/ristretto-pro-thin.woff") format("woff"); }
+
+@font-face {
+  font-family: "Ristretto-pro Semi Bold";
+  src: url("../fonts/ristretto-pro-semi-bold.woff") format("woff"); }
+
+@font-face {
+  font-family: "Ristretto-slab-pro Regular";
+  src: url("../fonts/ristretto-slab-pro-regular.woff") format("woff"); }
+
+@font-face {
+  font-family: "Ristretto-pro Regular";
+  src: url("../fonts/ristretto-pro-regular.woff") format("woff"); }
+
+/*# sourceMappingURL=data:application/json;charset=utf8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImZvbnRzLmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQSx3SUFBd0k7QUFDeEk7RUFDRSxxQkFBcUI7RUFDckIsb0RBQW9ELEVBQUU7O0FBRXhEO0VBQ0Usa0NBQWtDO0VBQ2xDLDREQUE0RCxFQUFFOztBQUVoRTtFQUNFLHVDQUF1QztFQUN2QyxpRUFBaUUsRUFBRTs7QUFFckU7RUFDRSwwQ0FBMEM7RUFDMUMsb0VBQW9FLEVBQUU7O0FBRXhFO0VBQ0UscUNBQXFDO0VBQ3JDLCtEQUErRCxFQUFFIiwiZmlsZSI6ImJsb2Nrcy9mb250cy5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyJAaW1wb3J0IHVybChcImh0dHBzOi8vZm9udHMuZ29vZ2xlYXBpcy5jb20vY3NzP2ZhbWlseT1Sb2JvdG86MTAwLDEwMGksMzAwLDMwMGksNDAwLDQwMGksNTAwLDUwMGksNzAwLDcwMGksOTAwLDkwMGkmc3Vic2V0PWN5cmlsbGljLWV4dFwiKTtcbkBmb250LWZhY2Uge1xuICBmb250LWZhbWlseTogXCJDZXJ2b1wiO1xuICBzcmM6IHVybCguLi9mb250cy9DZXJ2by1tZWRpdW0ud29mZikgZm9ybWF0KFwid29mZlwiKTsgfVxuXG5AZm9udC1mYWNlIHtcbiAgZm9udC1mYW1pbHk6IFwiUmlzdHJldHRvLXBybyBUaGluXCI7XG4gIHNyYzogdXJsKFwiLi4vZm9udHMvcmlzdHJldHRvLXByby10aGluLndvZmZcIikgZm9ybWF0KFwid29mZlwiKTsgfVxuXG5AZm9udC1mYWNlIHtcbiAgZm9udC1mYW1pbHk6IFwiUmlzdHJldHRvLXBybyBTZW1pIEJvbGRcIjtcbiAgc3JjOiB1cmwoXCIuLi9mb250cy9yaXN0cmV0dG8tcHJvLXNlbWktYm9sZC53b2ZmXCIpIGZvcm1hdChcIndvZmZcIik7IH1cblxuQGZvbnQtZmFjZSB7XG4gIGZvbnQtZmFtaWx5OiBcIlJpc3RyZXR0by1zbGFiLXBybyBSZWd1bGFyXCI7XG4gIHNyYzogdXJsKFwiLi4vZm9udHMvcmlzdHJldHRvLXNsYWItcHJvLXJlZ3VsYXIud29mZlwiKSBmb3JtYXQoXCJ3b2ZmXCIpOyB9XG5cbkBmb250LWZhY2Uge1xuICBmb250LWZhbWlseTogXCJSaXN0cmV0dG8tcHJvIFJlZ3VsYXJcIjtcbiAgc3JjOiB1cmwoXCIuLi9mb250cy9yaXN0cmV0dG8tcHJvLXJlZ3VsYXIud29mZlwiKSBmb3JtYXQoXCJ3b2ZmXCIpOyB9XG4iXX0= */

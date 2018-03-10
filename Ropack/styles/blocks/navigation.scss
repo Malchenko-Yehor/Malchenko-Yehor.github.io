@@ -1,0 +1,104 @@
+.navigation {
+  position: fixed;
+  z-index: 400;  
+  top: rem(43);
+
+  &__logo {
+    display: flex;
+    align-items: start;
+    margin-left: rem(25); 
+    margin-top: rem(2);
+  }
+
+  &__language-choose {
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    margin-left: rem(45);
+    margin-top: rem(95);
+    width: 21px;
+    font-family: "Ristretto-pro Regular";
+    font-size: rem(18);
+    font-weight: 400;
+    letter-spacing: 1.8px;
+
+    a {
+      display: block;
+      margin-top: 8px;
+      color: #8b8c96;
+      text-decoration: none;
+
+      &:hover {
+        color: #2f3035;        
+      }
+    }
+
+    .is-active {
+      color: #2f3035;
+    }
+  }
+
+
+  &__burger {
+    width: 51px;
+    height: 38px;
+    position: absolute;
+    margin-left: rem(30);
+    margin-top: rem(330);
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-image: url(../images/navigation__burgerInActive.png);
+    background-position: center center;
+    background-size: 100% auto;
+  }
+
+  &__burger.is-active {
+    background-image: url(../images/navigation__burgerActive.png);
+  }
+
+}
+
+
+@media only screen and (max-width: 760px){
+  .navigation {
+    background-color: #fff;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 54px;
+    box-shadow: 0 0 25px grey;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+    &__logo {
+      width: 45px !important;
+      height: 40px !important;
+      margin-left: 10px;
+    }
+
+    &__language-choose {
+      position: relative;
+      margin: 0;
+      display: flex;
+      width: auto;
+      height: auto;
+      margin-left: auto;
+
+      li {
+        margin-right: 7px;
+        margin-left: 7px;
+      }
+    }
+
+    &__burger {
+      position: relative;
+      width: 40px;
+      height: 29px;
+      margin: 0;
+      margin-left: 30px;
+      margin-right: 20px;
+    }
+  }
+}

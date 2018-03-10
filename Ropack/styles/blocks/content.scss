@@ -1,0 +1,220 @@
+.content {
+  max-width: 1458px;
+  margin-left: 120px;
+  display: flex;
+  align-content: stretch;
+  justify-content: flex-end;
+  position: relative;
+
+  &__tel {
+    display: block;
+    margin-top: 20px;
+    text-decoration: none;
+    color: #2f3035; 
+  }
+
+  &__animated-bar {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
+
+  &--start {
+    margin-top: -60px;
+    padding-top: 123px;
+    transform: translate3d(0,0,0);
+    justify-content: space-between;
+  }
+
+  &__wrapper {
+    position: absolute;
+  }
+
+  &__background {
+    width: 719px;
+    height: 776px;
+    position: sticky;
+    top: 0;
+    margin-top: -123px;
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size: 719px 776px;
+
+    &--about-page {
+      background-image: url('../images/parallax-about-us.png');    
+    }
+
+    &--partners-page {
+      background-image: url('../images/parallax-partners.png');    
+    }
+
+    &--news-page {
+      position: absolute;
+      left: 0;
+      top: -323px;
+      background-image: url('../images/parallax-news.png');
+    }
+
+    &--contacts-page {
+      background-image: url('../images/parallax-contacts.png');
+    }
+
+    &--food-page {
+      background-image: url('../images/parallax-food.png');
+    }
+
+    &--article-page {
+      background-image: url('../images/parallax-article.png');
+    }
+
+    &--outsourcing-page {
+      background-image: url('../images/parallax-outsourcing.png');
+    }
+
+    &--partner-page {
+      background-image: url('../images/parallax-partner.png');    
+    }
+  }
+
+  &__link {
+    margin-top: 18px;
+
+    a {
+      color: #1f2135;
+    }
+  }
+
+  &__title {
+    position: relative;
+    margin-top: 207px;
+    color: #1f2135;
+    font-family: "Ristretto-pro Regular", sans-serif;
+    font-size: 96px;
+    font-weight: 400;
+    line-height: 1;
+    letter-spacing: 9.6px;
+
+    &--no-lspacing {
+      letter-spacing: 0px;
+    }
+  }
+
+  &__main {
+    display: block;
+    text-decoration: none;
+    color: #8b8c96;
+    font-family: "Ristretto-pro Regular", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1;
+    letter-spacing: 1.8px;
+
+    &:hover {
+      color: #1f2135;
+    }
+
+    &--indent {
+      margin-top: 20px;
+    }
+  }
+
+  &__text {
+    margin-top: 38px;
+    color: #2f3035;
+    font-family: Roboto, sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 24px;
+
+    &--indent {
+      margin-top: 76px;
+    }
+  }
+
+  &__header {
+    margin-top: 80px;
+    color: #1f2135;
+    font-family: "Ristretto-pro Regular", sans-serif;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 36px;
+
+    &--small-indent {
+      margin-top: 50px;
+    }
+  }
+
+  &__holder {
+    max-width: 660px;
+    width: 100%;
+
+    &--wide {
+      max-width: 1290px;
+    }
+
+    &--go-right {
+      margin-left: auto;
+    }
+  }
+
+  &__button {
+    margin-top: 37px;
+
+    &--indent {
+      margin-top: 81px;
+    }
+  }
+
+  &__unordered-list-custom {
+    margin-top: 39px; 
+  }
+
+  &__news-archive {
+    margin-top: 82px;
+  }
+}
+
+@media only screen and (max-width: 1550px) {
+  .content {
+    &__title {
+      margin-top: 70px;
+    }
+
+    &__background {
+      display: none;
+    }
+
+    &__holder {
+      margin-left: auto;
+      margin-right: auto;
+      padding-right: 15px;
+    }
+  }
+}
+
+@media only screen and (max-width: 760px) {
+  .content {
+    margin-left: rem(20);
+
+    &__title {
+      font-size: 60px;
+    }
+
+    &__holder {
+      margin-left: auto;
+      margin-right: auto;
+      padding-right: 15px;
+    }
+  }
+}
+
+
+@media only screen and (max-width: 500px) {
+  .content {
+    &__title {
+      font-size: 45px;
+      letter-spacing: 0px;
+    }
+  }
+}
